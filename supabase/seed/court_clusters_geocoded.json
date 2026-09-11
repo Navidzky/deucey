@@ -1,0 +1,163 @@
+[
+  {
+    "lat": 40.470199425000004,
+    "lon": -86.96588584999999,
+    "n_courts": 4,
+    "name": "Harvey Lane",
+    "address": "Harvey Lane, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.4449771,
+    "lon": -86.9414076,
+    "n_courts": 1,
+    "name": "Kestral Boulevard",
+    "address": "Kestral Boulevard, Blackbird Farms Apartments, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.4289287,
+    "lon": -86.8992521,
+    "n_courts": 1,
+    "name": "North River Road",
+    "address": "North River Road, West Lafayette, Tippecanoe County, Indiana, 46906, United States"
+  },
+  {
+    "lat": 40.4345882,
+    "lon": -86.8702731,
+    "n_courts": 1,
+    "name": "Erie Street",
+    "address": "Erie Street, Lafayette, Tippecanoe County, Indiana, 47904, United States"
+  },
+  {
+    "lat": 40.3623423,
+    "lon": -86.8715908,
+    "n_courts": 2,
+    "name": "Kingfisher Drive",
+    "address": "Kingfisher Drive, Lafayette, Tippecanoe County, Indiana, 47909, United States"
+  },
+  {
+    "lat": 40.398515329999995,
+    "lon": -86.86964105,
+    "n_courts": 10,
+    "name": "Gregory Avenue",
+    "address": "Gregory Avenue, Lafayette, Tippecanoe County, Indiana, 47905, United States"
+  },
+  {
+    "lat": 40.38402895,
+    "lon": -86.86078775,
+    "n_courts": 2,
+    "name": "Eagles Way Drive",
+    "address": "Eagles Way Drive, Pheasant Run, Lafayette, Tippecanoe County, Indiana, 47909, United States"
+  },
+  {
+    "lat": 40.4222653,
+    "lon": -86.80503060000001,
+    "n_courts": 2,
+    "name": "Goldersgreen Drive",
+    "address": "Goldersgreen Drive, Meadowbrook, Tippecanoe County, Indiana, 47905, United States"
+  },
+  {
+    "lat": 40.436024153846155,
+    "lon": -86.93834357692307,
+    "n_courts": 13,
+    "name": "Purdue Outer XC Trail",
+    "address": "Purdue Outer XC Trail, West Lafayette, Tippecanoe County, Indiana, 47907, United States"
+  },
+  {
+    "lat": 40.46157804,
+    "lon": -86.90891934,
+    "n_courts": 10,
+    "name": "Avondale Street",
+    "address": "Avondale Street, Avondale, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.4580928,
+    "lon": -86.9414671,
+    "n_courts": 1,
+    "name": "Cumberland Avenue",
+    "address": "Cumberland Avenue, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.38748724,
+    "lon": -86.8865631,
+    "n_courts": 5,
+    "name": "Beck Lane",
+    "address": "Beck Lane, Lafayette, Tippecanoe County, Indiana, 47909, United States"
+  },
+  {
+    "lat": 40.4077927,
+    "lon": -86.9025937,
+    "n_courts": 1,
+    "name": "Sycamore Street",
+    "address": "Sycamore Street, Lafayette, Tippecanoe County, Indiana, 47902, United States"
+  },
+  {
+    "lat": 40.42844971666667,
+    "lon": -86.92497565000001,
+    "n_courts": 6,
+    "name": "Purdue University",
+    "address": "Purdue University, 610, West Lafayette, Tippecanoe County, Indiana, 47907, United States"
+  },
+  {
+    "lat": 40.4314518,
+    "lon": -86.8479133,
+    "n_courts": 1,
+    "name": "Green Acres Drive",
+    "address": "Green Acres Drive, Chatham Square, Lafayette, Tippecanoe County, Indiana, 47905, United States"
+  },
+  {
+    "lat": 40.4334772,
+    "lon": -86.9633946,
+    "n_courts": 1,
+    "name": "Fawn Ridge Drive",
+    "address": "Fawn Ridge Drive, McQuinn Estates, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.34993686666667,
+    "lon": -86.90161133333334,
+    "n_courts": 3,
+    "name": "Autumn Lane North",
+    "address": "Autumn Lane North, Tippecanoe County, Indiana, 47909, United States"
+  },
+  {
+    "lat": 40.4013578,
+    "lon": -86.8366193,
+    "n_courts": 1,
+    "name": "Burberry Drive North",
+    "address": "Burberry Drive North, Lafayette, Tippecanoe County, Indiana, 47905, United States"
+  },
+  {
+    "lat": 40.3556856,
+    "lon": -86.8523097,
+    "n_courts": 1,
+    "name": "Margesson Crossing",
+    "address": "Margesson Crossing, Tippecanoe County, Indiana, 47909, United States"
+  },
+  {
+    "lat": 40.4972951,
+    "lon": -86.91185738,
+    "n_courts": 10,
+    "name": "Flowermound Drive",
+    "address": "Flowermound Drive, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.4379705,
+    "lon": -86.90526075,
+    "n_courts": 2,
+    "name": "Rockland Drive",
+    "address": "Rockland Drive, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.46218535,
+    "lon": -86.926638975,
+    "n_courts": 4,
+    "name": "3114",
+    "address": "3114, Courthouse Drive East, Salem Courthouse Apartments, West Lafayette, Tippecanoe County, Indiana, 47906, United States"
+  },
+  {
+    "lat": 40.43393855,
+    "lon": -86.84752675,
+    "n_courts": 2,
+    "name": "North Chauncey Court",
+    "address": "North Chauncey Court, Chauncey Village Apartments, Lafayette, Tippecanoe County, Indiana, 47905, United States"
+  }
+]

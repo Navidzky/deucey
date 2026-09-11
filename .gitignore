@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+app/node_modules/
+
+# Expo
+app/.expo/
+app/dist/
+app/web-build/
+app/expo-env.d.ts
+app/.metro-health-check*
+
+# generated native folders
+app/ios/
+app/android/
+
+# env
+.env
+.env.local
+app/.env
+app/.env.local
+
+# OS
+.DS_Store
+
+# logs
+npm-debug.*
+*.tsbuildinfo
+
+# raw Overpass dumps used to build supabase/seed/us_courts.json.gz — large,
+# regenerate via supabase/seed/national/fetch_us_courts.py rather than commit
+supabase/seed/national/us_courts_raw/

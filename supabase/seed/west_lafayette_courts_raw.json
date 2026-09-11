@@ -1,0 +1,1041 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-03T03:41:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 115227619,
+  "center": {
+    "lat": 40.4701963,
+    "lon": -86.9661441
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 244599582,
+  "center": {
+    "lat": 40.4449771,
+    "lon": -86.9414076
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 257177661,
+  "center": {
+    "lat": 40.4289287,
+    "lon": -86.8992521
+  },
+  "tags": {
+    "barrier": "fence",
+    "fence_type": "chain_link",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 257177665,
+  "center": {
+    "lat": 40.4345882,
+    "lon": -86.8702731
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264466454,
+  "center": {
+    "lat": 40.3623400,
+    "lon": -86.8716740
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264466455,
+  "center": {
+    "lat": 40.3623446,
+    "lon": -86.8715076
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497086,
+  "center": {
+    "lat": 40.3987050,
+    "lon": -86.8699840
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497087,
+  "center": {
+    "lat": 40.3987075,
+    "lon": -86.8698139
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497088,
+  "center": {
+    "lat": 40.3987066,
+    "lon": -86.8696405
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497089,
+  "center": {
+    "lat": 40.3987067,
+    "lon": -86.8694683
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497090,
+  "center": {
+    "lat": 40.3987076,
+    "lon": -86.8692928
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497091,
+  "center": {
+    "lat": 40.3983231,
+    "lon": -86.8699883
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497092,
+  "center": {
+    "lat": 40.3983255,
+    "lon": -86.8698182
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497093,
+  "center": {
+    "lat": 40.3983243,
+    "lon": -86.8696401
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497094,
+  "center": {
+    "lat": 40.3983248,
+    "lon": -86.8694672
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497095,
+  "center": {
+    "lat": 40.3983222,
+    "lon": -86.8692972
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497106,
+  "center": {
+    "lat": 40.3840292,
+    "lon": -86.8608730
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264497107,
+  "center": {
+    "lat": 40.3840287,
+    "lon": -86.8607025
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264517604,
+  "center": {
+    "lat": 40.4222664,
+    "lon": -86.8051131
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 264517605,
+  "center": {
+    "lat": 40.4222642,
+    "lon": -86.8049481
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 283069988,
+  "center": {
+    "lat": 40.4362592,
+    "lon": -86.9378729
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 283069989,
+  "center": {
+    "lat": 40.4360219,
+    "lon": -86.9383500
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 283539039,
+  "center": {
+    "lat": 40.4619422,
+    "lon": -86.9090231
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 369597828,
+  "center": {
+    "lat": 40.4580928,
+    "lon": -86.9414671
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 475216721,
+  "center": {
+    "lat": 40.3876186,
+    "lon": -86.8868210
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 475216724,
+  "center": {
+    "lat": 40.3876187,
+    "lon": -86.8866053
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 475216726,
+  "center": {
+    "lat": 40.3876188,
+    "lon": -86.8863923
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 475216728,
+  "center": {
+    "lat": 40.3872897,
+    "lon": -86.8863923
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 475216730,
+  "center": {
+    "lat": 40.3872904,
+    "lon": -86.8866046
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928753,
+  "center": {
+    "lat": 40.4622710,
+    "lon": -86.9090195
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928754,
+  "center": {
+    "lat": 40.4619420,
+    "lon": -86.9088093
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928755,
+  "center": {
+    "lat": 40.4615555,
+    "lon": -86.9090281
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928756,
+  "center": {
+    "lat": 40.4612222,
+    "lon": -86.9090293
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928757,
+  "center": {
+    "lat": 40.4608980,
+    "lon": -86.9088187
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928758,
+  "center": {
+    "lat": 40.4608985,
+    "lon": -86.9090317
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928759,
+  "center": {
+    "lat": 40.4612259,
+    "lon": -86.9088151
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928760,
+  "center": {
+    "lat": 40.4622698,
+    "lon": -86.9088066
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 482928761,
+  "center": {
+    "lat": 40.4615553,
+    "lon": -86.9088120
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 547097677,
+  "center": {
+    "lat": 40.4077927,
+    "lon": -86.9025937
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 551306779,
+  "center": {
+    "lat": 40.4286716,
+    "lon": -86.9249315
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 673505860,
+  "center": {
+    "lat": 40.4314518,
+    "lon": -86.8479133
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 874194600,
+  "center": {
+    "lat": 40.4334772,
+    "lon": -86.9633946
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 885972716,
+  "center": {
+    "lat": 40.3499063,
+    "lon": -86.9017772
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105374,
+  "center": {
+    "lat": 40.4362562,
+    "lon": -86.9380460
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105375,
+  "center": {
+    "lat": 40.4362609,
+    "lon": -86.9382201
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105376,
+  "center": {
+    "lat": 40.4362609,
+    "lon": -86.9384666
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105377,
+  "center": {
+    "lat": 40.4362609,
+    "lon": -86.9386376
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105378,
+  "center": {
+    "lat": 40.4362598,
+    "lon": -86.9388101
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105379,
+  "center": {
+    "lat": 40.4357849,
+    "lon": -86.9388086
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105380,
+  "center": {
+    "lat": 40.4357920,
+    "lon": -86.9386406
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105381,
+  "center": {
+    "lat": 40.4357873,
+    "lon": -86.9384682
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105382,
+  "center": {
+    "lat": 40.4357884,
+    "lon": -86.9382170
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105383,
+  "center": {
+    "lat": 40.4357920,
+    "lon": -86.9380568
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 917105384,
+  "center": {
+    "lat": 40.4357896,
+    "lon": -86.9378720
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 992525471,
+  "center": {
+    "lat": 40.4013578,
+    "lon": -86.8366193
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1034030159,
+  "center": {
+    "lat": 40.4286711,
+    "lon": -86.9247588
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1034030160,
+  "center": {
+    "lat": 40.4283377,
+    "lon": -86.9247573
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1034030161,
+  "center": {
+    "lat": 40.4283395,
+    "lon": -86.9249310
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1034030162,
+  "center": {
+    "lat": 40.4283389,
+    "lon": -86.9251512
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1034030163,
+  "center": {
+    "lat": 40.4283395,
+    "lon": -86.9253241
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1043276457,
+  "center": {
+    "lat": 40.3556856,
+    "lon": -86.8523097
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239932,
+  "center": {
+    "lat": 40.4702027,
+    "lon": -86.9656273
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239933,
+  "center": {
+    "lat": 40.4702003,
+    "lon": -86.9657987
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239934,
+  "center": {
+    "lat": 40.4701984,
+    "lon": -86.9659733
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239939,
+  "center": {
+    "lat": 40.4970965,
+    "lon": -86.9115091
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239940,
+  "center": {
+    "lat": 40.4970934,
+    "lon": -86.9116817
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239941,
+  "center": {
+    "lat": 40.4970939,
+    "lon": -86.9118528
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239942,
+  "center": {
+    "lat": 40.4970914,
+    "lon": -86.9120264
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239943,
+  "center": {
+    "lat": 40.4970896,
+    "lon": -86.9122008
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239944,
+  "center": {
+    "lat": 40.4975011,
+    "lon": -86.9115161
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239945,
+  "center": {
+    "lat": 40.4974985,
+    "lon": -86.9116881
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239946,
+  "center": {
+    "lat": 40.4974983,
+    "lon": -86.9118611
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239947,
+  "center": {
+    "lat": 40.4974952,
+    "lon": -86.9120321
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144239948,
+  "center": {
+    "lat": 40.4974931,
+    "lon": -86.9122056
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1144251318,
+  "center": {
+    "lat": 40.3499681,
+    "lon": -86.9014454
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1144251319,
+  "center": {
+    "lat": 40.3499362,
+    "lon": -86.9016114
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1478709221,
+  "center": {
+    "lat": 40.4379711,
+    "lon": -86.9051698
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1478709222,
+  "center": {
+    "lat": 40.4379699,
+    "lon": -86.9053517
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162171,
+  "center": {
+    "lat": 40.4622134,
+    "lon": -86.9277394
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162172,
+  "center": {
+    "lat": 40.4622136,
+    "lon": -86.9275669
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162422,
+  "center": {
+    "lat": 40.4621571,
+    "lon": -86.9257174
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162423,
+  "center": {
+    "lat": 40.4621573,
+    "lon": -86.9255322
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162902,
+  "center": {
+    "lat": 40.4339394,
+    "lon": -86.8476098
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1480162903,
+  "center": {
+    "lat": 40.4339377,
+    "lon": -86.8474437
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+}
+
+  ]
+}

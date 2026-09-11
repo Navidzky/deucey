@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "DEUCEY",
+    "slug": "deucey",
+    "scheme": "deucey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deucey.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "DEUCEY uses your location to show nearby courts and available players."
+      }
+    },
+    "android": {
+      "package": "com.deucey.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "DEUCEY uses your location to show nearby courts and available players."
+        }
+      ],
+      "expo-web-browser"
+    ]
+  }
+}
