@@ -42,6 +42,7 @@ export default function SignIn() {
   const [notice, setNotice] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [googleSubmitting, setGoogleSubmitting] = useState(false);
+  const [guestSubmitting, setGuestSubmitting] = useState(false);
 
   const submit = async () => {
     setError(null);
@@ -83,6 +84,19 @@ export default function SignIn() {
     }
   };
 
+  const submitGuest = async () => {
+    setError(null);
+    setNotice(null);
+    setGuestSubmitting(true);
+    const { error: authError } = await supabase.auth.signInAnonymously();
+    setGuestSubmitting(false);
+    if (authError) {
+      setError(authError.message);
+      return;
+    }
+    router.replace('/');
+  };
+
   return (
     <KeyboardAvoidingView
       style={styles.screen}
@@ -105,6 +119,14 @@ export default function SignIn() {
                   <ActivityIndicator color={theme.color.text} />
                 ) : (
                   <Text style={styles.googleButtonText}>Continue with Google</Text>
+                )}
+              </Pressable>
+
+              <Pressable onPress={submitGuest} disabled={guestSubmitting} style={styles.guestButton}>
+                {guestSubmitting ? (
+                  <ActivityIndicator color={theme.color.muted} />
+                ) : (
+                  <Text style={styles.guestButtonText}>Continue as guest</Text>
                 )}
               </Pressable>
 
@@ -239,6 +261,16 @@ const styles = StyleSheet.create({
     color: theme.color.text,
     fontSize: theme.font.body,
     fontWeight: '600',
+  },
+  guestButton: {
+    paddingVertical: theme.space(1),
+    alignItems: 'center',
+  },
+  guestButtonText: {
+    color: theme.color.muted,
+    fontSize: theme.font.small,
+    fontWeight: '600',
+    textDecorationLine: 'underline',
   },
   dividerRow: {
     flexDirection: 'row',
