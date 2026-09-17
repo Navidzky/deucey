@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
   Image,
@@ -15,6 +15,7 @@ import {
 import { router } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { signInWithGoogle } from '../../lib/google-auth';
+import { useAuth } from '../../lib/auth-context';
 import { theme } from '../../lib/theme';
 
 const logo = require('../../assets/logo.png');
@@ -22,6 +23,17 @@ const logo = require('../../assets/logo.png');
 export default function SignIn() {
   const { width } = useWindowDimensions();
   const isWide = width >= 760;
+
+  // On web, "Continue with Google" redirects back to this exact screen (not
+  // the app root) once Supabase finishes the OAuth round trip. Without this,
+  // a freshly-established session just sits here unused and the sign-in form
+  // stays put — looking like the app flashed and then bounced back.
+  const { session, initializing } = useAuth();
+  useEffect(() => {
+    if (!initializing && session) {
+      router.replace('/');
+    }
+  }, [initializing, session]);
 
   const [mode, setMode] = useState<'sign-in' | 'sign-up'>('sign-up');
   const [email, setEmail] = useState('');
