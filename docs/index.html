@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEUCEY — find someone to play tennis with, nearby</title>
+<meta name="description" content="DEUCEY matches you with nearby tennis players by skill level and shows nearby courts — without ever sharing your exact location.">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  :root {
+    --ink: #1B1B18;
+    --ink-soft: #55524A;
+    --paper: #FAF7F0;
+    --card: #FFFFFF;
+    --line: #E5E2D8;
+    --blue: #1D5FC2;
+    --blue-soft: #EAF1FC;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+  header.site {
+    padding: 28px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; }
+  .wordmark { font-size: 20px; font-weight: 700; letter-spacing: 0.02em; color: var(--ink); }
+  .wordmark:hover { text-decoration: none; }
+  nav.site a { font-size: 14px; font-weight: 600; color: var(--ink-soft); margin-left: 28px; }
+  nav.site a:hover { color: var(--blue); }
+
+  .hero {
+    padding: 80px 0 64px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--blue);
+    background: var(--blue-soft);
+    border-radius: 999px;
+    padding: 6px 14px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 46px;
+    line-height: 1.12;
+    margin: 0 0 20px;
+    letter-spacing: -0.01em;
+  }
+  .lede {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0 0 28px;
+    max-width: 46ch;
+  }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 10px;
+  }
+  .btn-primary { background: var(--blue); color: #fff; }
+  .btn-primary:hover { background: #17509f; text-decoration: none; }
+  .btn-ghost { border: 1px solid var(--line); color: var(--ink); }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); text-decoration: none; }
+
+  .hero-art { width: 100%; }
+  .hero-art svg { width: 100%; height: auto; display: block; }
+
+  section.features {
+    padding: 56px 0;
+    border-top: 1px solid var(--line);
+  }
+  .features h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 28px;
+  }
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .feature-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+  }
+  .feature-card .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: var(--blue-soft);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .feature-card h3 { font-size: 17px; margin: 0 0 8px; }
+  .feature-card p { font-size: 15px; line-height: 1.55; color: var(--ink-soft); margin: 0; }
+
+  section.status {
+    padding: 48px 0 72px;
+    border-top: 1px solid var(--line);
+  }
+  .status-box {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .status-box .dot {
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--blue);
+    flex-shrink: 0;
+  }
+  .status-box h3 { margin: 0 0 8px; font-size: 17px; }
+  .status-box p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+  .status-box p + p { margin-top: 10px; }
+
+  footer.site {
+    border-top: 1px solid var(--line);
+    padding: 28px 0 40px;
+  }
+  footer.site .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  footer.site p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; padding: 48px 0 40px; }
+    .hero-art { order: -1; max-width: 320px; margin: 0 auto; }
+    h1 { font-size: 32px; }
+    .feature-grid { grid-template-columns: 1fr; }
+    nav.site a { margin-left: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="wordmark" href="#top">DEUCEY</a>
+    <nav class="site">
+      <a href="#how-it-works">How it works</a>
+      <a href="https://github.com/Navidzky/deucey">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero" id="top">
+    <div>
+      <span class="badge">In development</span>
+      <h1>Find someone to play tennis with, nearby.</h1>
+      <p class="lede">
+        DEUCEY matches you with nearby players by skill level and shows nearby
+        courts with directions — all without ever sharing your exact location.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://github.com/Navidzky/deucey">Follow the project</a>
+        <a class="btn btn-ghost" href="#how-it-works">How it works</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="M270,40 C268,150 272,260 269,370 C268,410 271,440 270,470" fill="none" stroke="#1D5FC2" stroke-width="7" stroke-linecap="round"/>
+        <ellipse cx="90" cy="210" rx="26" ry="28" fill="none" stroke="#1D5FC2" stroke-width="7"/>
+        <path d="M90,238 L74,300 M74,300 L40,395 M74,300 L128,380" fill="none" stroke="#1D5FC2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M95,240 L140,205" fill="none" stroke="#1D5FC2" stroke-width="7" stroke-linecap="round"/>
+        <ellipse cx="195" cy="160" rx="68" ry="52" fill="none" stroke="#1D5FC2" stroke-width="7" transform="rotate(-12 195 160)"/>
+        <circle cx="390" cy="95" r="17" fill="none" stroke="#1D5FC2" stroke-width="6"/>
+        <rect x="350" y="140" width="110" height="85" rx="18" ry="18" fill="none" stroke="#1D5FC2" stroke-width="7"/>
+        <path d="M362,152 L448,213 M448,152 L362,213" fill="none" stroke="#1D5FC2" stroke-width="4" stroke-linecap="round"/>
+        <ellipse cx="470" cy="250" rx="26" ry="28" fill="none" stroke="#1D5FC2" stroke-width="7"/>
+        <path d="M470,278 L458,330 M458,330 L430,415 M458,330 L495,405" fill="none" stroke="#1D5FC2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M458,282 L440,222" fill="none" stroke="#1D5FC2" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="features" id="how-it-works">
+    <h2>How it works</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="num">1</div>
+        <h3>Nearby players, by skill</h3>
+        <p>See who's around and up for a match at your level — visible only while you're both marked available to play.</p>
+      </div>
+      <div class="feature-card">
+        <div class="num">2</div>
+        <h3>Nearby courts, with directions</h3>
+        <p>Public and private courts pulled from real map data, with a one-tap directions link to get there.</p>
+      </div>
+      <div class="feature-card">
+        <div class="num">3</div>
+        <h3>Private by default</h3>
+        <p>Your exact location never leaves the database. Other players only ever see a rounded distance, never coordinates.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="status">
+    <div class="status-box">
+      <div class="dot"></div>
+      <div>
+        <h3>Where things stand</h3>
+        <p>
+          DEUCEY is a working app, not yet on the app stores. It runs on iOS,
+          Android, and web from one codebase, backed by a live Supabase
+          database — sign-up, skill-based matching, and nearby-courts search
+          are all built and working.
+        </p>
+        <p>
+          Court data is already mapped nationwide (all 50 states + DC), with
+          West Lafayette, Indiana as the first fully-reviewed test market.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; 2026 DEUCEY</p>
+    <p><a href="https://github.com/Navidzky/deucey">github.com/Navidzky/deucey</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
