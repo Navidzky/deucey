@@ -2,6 +2,10 @@
 node_modules/
 app/node_modules/
 
+# the web export mirrors third-party asset paths under assets/node_modules/,
+# which isn't a real dependency tree — don't let the rule above eat it
+!docs/app/assets/node_modules/
+
 # Expo
 app/.expo/
 app/dist/
